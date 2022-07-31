@@ -144,6 +144,21 @@ svg {
     color: #d1fae5;
 }
 
+.text {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.projects .icons{
+    display: flex;
+    margin-bottom: 3px;
+    gap: 10px;
+    margin-left: auto;
+    justify-content: end;
+    align-items: bottom;
+}
+
 .announcement-container{
     grid-column-start: 3;
     grid-column-end: -1;
