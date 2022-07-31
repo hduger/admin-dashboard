@@ -168,6 +168,24 @@ svg {
     border-radius: 5px;
     padding: 8px;
     color: #d1fae5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.announcement-container .title {
+    font-size: 16px;
+}
+
+.announcement-container p {
+    font-size: 12px;
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    background-color:#ecfdf5;
 }
 
 .trending-container{
@@ -179,6 +197,24 @@ svg {
     border-radius: 5px;
     padding: 8px;
     color: #d1fae5;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+}
+
+.trending img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.trending .title {
+    font-size: 16px;
 }
 
 .dashboard{
