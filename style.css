@@ -33,6 +33,8 @@ svg {
 .header input{
     border-radius: 15px;
     padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #d1fae5;
     width: clamp(150px, 70%, 800px);
 }
@@ -73,6 +75,7 @@ svg {
     font-size: 24px;
     font-weight: bold;
     margin-left: 1rem;
+    color: #064e3b;
 }
 
 .buttons {
@@ -89,6 +92,12 @@ svg {
     background-color: #064e3b;
     color: #ecfdf5;
     border-radius: 1rem;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    background-color: #a7f3d0;
+    color: #064e3b;
 }
 
 .main-content{
@@ -157,21 +166,28 @@ svg {
     color: #d1fae5;
 }
 
-h1{
+.dashboard{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     margin-left: 1rem;
-    justify-content: center;
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .nav {
     display: grid;
     gap: 1rem;
     margin-bottom: 4rem;
+    margin-left: 0px;
 }
 
 .nav > li {
     font-size: 1.2rem;
     font-weight: bold;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
 }
 
 .support {
@@ -182,6 +198,9 @@ h1{
 .support > li {
     font-size: 1.2rem;
     font-weight: bold;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
 }
 
 li {
