@@ -49,13 +49,46 @@ svg {
     align-items: center;
     gap: 1rem;
     margin-left: auto;
-    margin-right: 2rem;
+    margin-right: 30px;
 }
 
 .notification img{
     height: 50px;
     width: 50px;
     border-radius: 50px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name img{
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+}
+
+.user  {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: auto;
+    gap: 3rem;
+}
+
+.buttons button{
+    padding: 8px;
+    width: 5rem;
+    background-color: #064e3b;
+    color: #ecfdf5;
+    border-radius: 1rem;
 }
 
 .main-content{
